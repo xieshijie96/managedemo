@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: AttendenceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.083 s <<< FAILURE! - in AttendenceTest
+test1(AttendenceTest)  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NullPointerException
+	at AttendenceTest.test1(AttendenceTest.java:13)
+

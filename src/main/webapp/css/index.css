@@ -1,0 +1,58 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.header1{
+    height: 100px;
+    background: yellowgreen;
+}
+.left{
+    width: 200px;
+    height: 100%;
+}
+.left .title{
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 40px;
+    background: rgb(0,162,226);
+    background-image: url('../images/timg.png');
+    background-position: 10% 45%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    text-shadow: darkgray;
+    text-align: center;
+}
+.left .menu ul{
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 200;
+}
+.left .menu a{
+    display: inline-block;
+    height: 30px;
+    cursor: pointer;
+}
+.left .menu a:link,.left .menu a:visited{
+    color:#000;
+}
+.left .menu a:hover{
+    color:rgb(0,162,226);
+}
+.right{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    background: #eee;
+}
+.right .frm{
+    width: 100%;
+    height: 100%;
+}

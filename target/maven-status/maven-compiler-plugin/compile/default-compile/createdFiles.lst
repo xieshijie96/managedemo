@@ -1,0 +1,6 @@
+abc\wuyan\model\User.class
+abc\wuyan\mapper\UserMapper.class
+abc\wuyan\service\IUserService.class
+abc\wuyan\model\Attendence.class
+abc\wuyan\service\impl\UserServiceImpl.class
+abc\wuyan\controller\UserController.class
